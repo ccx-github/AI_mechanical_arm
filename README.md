@@ -1,1 +1,1 @@
-# AI_mechanical_arm
+# AI-mechanical-arm
