@@ -4187,6 +4187,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-brand > img {
   display: block;
+  margin-top: 42px; /* 调整距离顶部的间距 */
 }
 @media (min-width: 768px) {
   .navbar > .container .navbar-brand,
