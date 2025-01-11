@@ -68,12 +68,17 @@ a:hover {
     min-height: 720px;
 }
 .banner-bottom1 {
-    background: url(../images/6.jpg)no-repeat;
+    background: url(../images/6.jpg)no-repeat center;
     background-size: contain;
     min-height: 720px;
 }
 .banner-bottom2 {
-    background: url(../images/8.jpg)no-repeat;
+    background: url(../images/8.jpg)no-repeat center;
+    background-size: contain;
+    min-height: 720px;
+}
+.banner-bottom3 {
+    background: url(../images/9.jpg)no-repeat center;
     background-size: contain;
     min-height: 720px;
 }
