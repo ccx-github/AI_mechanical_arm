@@ -105,116 +105,76 @@
 	<div class="container">
 		<div class="about-main">
 		  <div class="about-top wow fadeInDownBig" data-wow-delay="0.3s">
-			<h1>About us</h1>
-			<p>Empowering Motion, Redefining Possibilities </p>
+			<h1>AI Intention Recognition</h1>
+			
 		  </div>
-		  <div class="about-bottom wow slideInRight" data-wow-delay="0.3s">
-		  	<img src="images/ab.jpg" alt="" class="img-responsive">
-		  	<h2>Differentiation: Our AI-driven exoskeleton stands out</h2>
-		  	<p> 
-AI Intention Recognition: This allows the device to identify the patient’s motor intentions and adapt rehabilitation movements in real-time, something that few competitors do.
-
-Personalization: The device creates customized rehabilitation programs tailored to the individual’s needs and recovery pace.
-Safety and Feedback: Real-time feedback on joint angles, force, and motion helps ensure safety during exercises, reducing the risk of strain or injury.</p>
-		  </div>
+		 
 		 <div class="clearfix"> </div>
 		</div>
 	</div>
 </div>
-<!--about grid start here-->
 <div class="our-history">
 	<div class="container">
 		<div class="our-history">
 			<div class="history-top wow rollIn" data-wow-delay="0.3s">
-				<h3>Our Story</h3>
-				<p>The four of us all enjoy playing sports, and interact with those who share our interests. When we were chatting, we discovered by chanve that many people suffer from a long recovery time after hand injuries. During that time, they would not be able to play sports anymore and the recovering equipment is very annoying. Since we all know something about robotics and computer science, we decided to work together to develop this product.  </p>
+				<h3>Questions: Why do you say your product is related to AI, and what are the benefits of this?</h3>
 			</div>
-			<div class="history-bottom"> 
-				<div class="col-md-6 history-left  wow slideInLeft" data-wow-delay="0.3s">
-					<p>Jayden, who has already had some experience from other programs on planning and monitoring the company, was elected the CEO. Owen had taken courses on economics and finance, like AP micro/macroeconomics, so he decided to be the CFO. Alex was very interested in designing since he was a child, and has a great talent in conputer science and programming, which made him the CTO. Finally, Jiamu sunhas some connections with the local hospital and enjoys conducting surveys and gathering information, and has experience from the IB extended essay. Her abilities made her the CMO.</p>
+			
+		</div>
+	</div>
+</div>
+<div class="fitness">
+	<div class="container">
+		<div class="fitness-main">
+			<div class="fitness-top wow slideInLeft" data-wow-delay="0.3s">
+			</div>
+			<div class="fitness-bottom">				
+				<div class=" fitness-rit wow zoomIn" data-wow-delay="0.3s">
+					<h4>Answer</h4>
+					<p>Our product provides a solution for hand rehabilitation through the combination of AI intention recognition and hand rehabilitation exoskeletons. AI intention recognition can identify the hand movements of individuals requiring rehabilitation training and adjust the exercises in real-time, allowing patients to undergo rehabilitation training to the fullest extent within a safe range of motion. Moreover, the actual data can be viewed by the patients themselves and transmitted to rehabilitation doctors, enhancing the effectiveness of rehabilitation training. The classic analysis method is divided into two steps: offline model training and online model recognition.</p>
+					</br>
+					<p>In offline model training, the first step is to collect electromyography (EMG) training data. The collected raw EMG signals are first subjected to filtering and noise reduction processing to minimize the impact of noise and other factors. Features are extracted from the EMG signals, and the collected features are normalized. Finally, the processed feature data is used to train and obtain a training model.</p>
+					</br>
+					<p>The online model recognition process is similar to offline model training. Real-time collected EMG data is used as input. The real-time collected EMG signals undergo signal preprocessing, feature extraction, and feature normalization before being transmitted to the offline-trained model. With accurate data, real-time hand movement intentions are calculated and obtained.</p>
+					<div class="about-bottom wow slideInRight" data-wow-delay="0.3s">
+		  			<img src="images/ai1.png" alt="" class="img-responsive">
+		  			</div>
+					</br>
+					<p>
+					During the rehabilitation process, real-time monitoring of electromyography (EMG) and providing patients with EMG feature feedback can effectively assist them, encouraging autonomous training and thereby enhancing the effectiveness of exercises. To make the rehabilitation process more visible, boost patients' confidence in recovery, and simultaneously prevent fatigue and over-rehabilitation of hand muscles during the process.
+					</p>
+				     <a href="index.html" class="hvr-underline-from-left">Read More</a>
 				</div>
-				<div class="col-md-6 history-right  wow slideInRight" data-wow-delay="0.3s">
-					<div class="item item-type-move">
-						<a class="item-hover" href="#">						
-							<div class="item-info">
-								<div class="headline">
-									Our Class
-									<div class="line"> </div>
-								</div>
-								<div class="date">February 29, 2016</div>							
-							</div>
-							<div class="mask"> </div>
-					    </a>
-						<div class="item-img">
-								<img src="images/a1.jpg" class="img-responsive" alt="">
-						</div>
-					</div>
-					 <div class="clearfix"> </div>
+
+			
+<!--services-->
+			
+				<div class=" fitness-rit wow zoomIn" data-wow-delay="0.3s">
+					<h4>Technical Principles</h4>
+					<p>By collecting EMG data, calculating corresponding fatigue characteristics, and displaying them in real-time, the results will be utilized in the design of control software to achieve excellent human-computer interaction. Under static and dynamic conditions, muscle fatigue causes different changes in EMG signal characteristics. During repetitive work-induced muscle fatigue, EMG characteristics exhibit increased amplitude and a leftward shift in the frequency spectrum.</p>
+						<div class="about-bottom wow slideInRight" data-wow-delay="0.3s">
+		  			<img src="images/ai2.png" alt="" class="img-responsive">
+		  			<p>Feature Extraction of RMS for 8-Channel EMG using MYO Armband</p>
+		  			</div>
+					</br> 
+					<p>
+					The increase in EMG amplitude during muscle fatigue is due to the recruitment of more motor units to compensate for the decreased muscle force of already activated motor units in order to complete fixed movements. The leftward shift may be related to a decrease in muscle fiber conduction velocity (MFCV). In this design, the host computer will receive EMG data transmitted by the MYO armband, calculate and display the root mean square (RMS) of the surface EMG signals in real-time, and perform real-time fast Fourier transform (FFT) on the collected MYO EMG data. Here, an EMG acquisition window N = 50 is set to calculate the RMS for a single channel of EMG, ultimately obtaining the average RMS for 8 channels of information as shown in the following formula. The figure below depicts the MYO armband's 8-channel EMG data acquisition and RMS feature calculation data graph.
+					</p>
+
+
+				     <a href="index.html" class="hvr-underline-from-left">Read More</a>
 				</div>
-			   <div class="clearfix"> </div>
+				
+			
+				<div class="clearfix"> </div>
 			</div>
 		</div>
 	</div>
 </div>
+
 <!--about grid end here-->
 <!--team start here-->
-<div class="team">
-	<div class="container">
-		<div class="team-main wow zoomIn" data-wow-delay="0.3s">
-			<h4>Our Team</h4>
-			  <ul class="ch-grid">
-					<li>
-						<div class="ch-item ch-img-1">				
-							<div class="ch-info-wrap">
-								<div class="ch-info">
-									<div class="ch-info-front ch-img-1"></div>
-									<div class="ch-info-back">
-										<h3>Jayden</h3>									
-									</div>	
-								</div>
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="ch-item ch-img-2">
-							<div class="ch-info-wrap">
-								<div class="ch-info">
-									<div class="ch-info-front ch-img-2"></div>
-									<div class="ch-info-back">
-										<h3>Owen</h3>										
-									</div>
-								</div>
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="ch-item ch-img-3">
-							<div class="ch-info-wrap">
-								<div class="ch-info">
-									<div class="ch-info-front ch-img-3"></div>
-									<div class="ch-info-back">
-										<h3>jiamu sun</h3>										
-									</div>
-								</div>
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="ch-item ch-img-4">
-							<div class="ch-info-wrap">
-								<div class="ch-info">
-									<div class="ch-info-front ch-img-4"></div>
-									<div class="ch-info-back">
-										<h3>Alex</h3>										
-									</div>
-								</div>
-							</div>
-						</div>
-					</li>
-				</ul>
-		 </div>
-	</div>
-</div>
+
 <!--team end here-->
 <!--about end here-->
 <!--footer start here-->

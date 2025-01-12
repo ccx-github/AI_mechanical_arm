@@ -105,116 +105,93 @@
 	<div class="container">
 		<div class="about-main">
 		  <div class="about-top wow fadeInDownBig" data-wow-delay="0.3s">
-			<h1>About us</h1>
-			<p>Empowering Motion, Redefining Possibilities </p>
+			<h1>Personalization and Security Protection</h1>
 		  </div>
-		  <div class="about-bottom wow slideInRight" data-wow-delay="0.3s">
-		  	<img src="images/ab.jpg" alt="" class="img-responsive">
-		  	<h2>Differentiation: Our AI-driven exoskeleton stands out</h2>
-		  	<p> 
-AI Intention Recognition: This allows the device to identify the patient’s motor intentions and adapt rehabilitation movements in real-time, something that few competitors do.
-
-Personalization: The device creates customized rehabilitation programs tailored to the individual’s needs and recovery pace.
-Safety and Feedback: Real-time feedback on joint angles, force, and motion helps ensure safety during exercises, reducing the risk of strain or injury.</p>
-		  </div>
+		  
 		 <div class="clearfix"> </div>
 		</div>
 	</div>
 </div>
-<!--about grid start here-->
 <div class="our-history">
 	<div class="container">
 		<div class="our-history">
 			<div class="history-top wow rollIn" data-wow-delay="0.3s">
-				<h3>Our Story</h3>
-				<p>The four of us all enjoy playing sports, and interact with those who share our interests. When we were chatting, we discovered by chanve that many people suffer from a long recovery time after hand injuries. During that time, they would not be able to play sports anymore and the recovering equipment is very annoying. Since we all know something about robotics and computer science, we decided to work together to develop this product.  </p>
+				<h3>Question: How do you enable users to perform daily activities while collecting accurate data during the process?</h3>
 			</div>
-			<div class="history-bottom"> 
-				<div class="col-md-6 history-left  wow slideInLeft" data-wow-delay="0.3s">
-					<p>Jayden, who has already had some experience from other programs on planning and monitoring the company, was elected the CEO. Owen had taken courses on economics and finance, like AP micro/macroeconomics, so he decided to be the CFO. Alex was very interested in designing since he was a child, and has a great talent in conputer science and programming, which made him the CTO. Finally, Jiamu sunhas some connections with the local hospital and enjoys conducting surveys and gathering information, and has experience from the IB extended essay. Her abilities made her the CMO.</p>
+			
+		</div>
+	</div>
+</div>
+<div class="fitness">
+	<div class="container">
+		<div class="fitness-main">
+			<div class="fitness-top wow slideInLeft" data-wow-delay="0.3s">
+			</div>
+			<div class="fitness-bottom">				
+				<div class=" fitness-rit wow zoomIn" data-wow-delay="0.3s">
+					<h4>Answer</h4>
+					<p>To ensure patients can engage in daily activities while collecting accurate data, our wristband utilizes LeapMotion, released by Leap, to measure hand movements in real-time during the rehabilitation process. As shown in the diagram, LeapMotion is equipped with two grayscale camera sensors and three infrared LED light sources. During use, it can perceive three-dimensional pixels, process vast amounts of pixel data, and identify data such as the user's hand position, movement speed, pointing direction, and joint bending angles, without requiring any additional actions from the user. Simply performing corresponding hand movements within LeapMotion's working range enables functions such as browsing web pages, flipping through photos, reading articles, and playing music on the PC.
+					<div class="about-bottom wow slideInRight" data-wow-delay="0.3s">
+                              <img src="images/p1.png" alt="" class="img-responsive">
+                    </div>
+					</p>
+				     <a href="index.html" class="hvr-underline-from-left">Read More</a>
 				</div>
-				<div class="col-md-6 history-right  wow slideInRight" data-wow-delay="0.3s">
-					<div class="item item-type-move">
-						<a class="item-hover" href="#">						
-							<div class="item-info">
-								<div class="headline">
-									Our Class
-									<div class="line"> </div>
-								</div>
-								<div class="date">February 29, 2016</div>							
-							</div>
-							<div class="mask"> </div>
-					    </a>
-						<div class="item-img">
-								<img src="images/a1.jpg" class="img-responsive" alt="">
-						</div>
-					</div>
-					 <div class="clearfix"> </div>
+
+<!--services-->
+			
+				<div class=" fitness-rit wow zoomIn" data-wow-delay="0.3s">
+					<h4>Technical Principles</h4>
+					<p>During the early stage of rehabilitation, passive training is necessary because patients are unable to perform active movements. Therefore, we have designed a corresponding exoskeleton control mode.
+					</br> 
+					In the passive rehabilitation mode, when patients lack the strength in their hands or their strength is insufficient to complete a full hand rehabilitation movement, the exoskeleton will drive each finger exoskeleton according to the pre-designed grasping patterns, facilitating the completion of corresponding grasping actions by the hand. The following diagram illustrates the control method structure block diagram of the hand rehabilitation robot in the passive rehabilitation mode.
+					<div class="about-bottom wow slideInRight" data-wow-delay="0.3s">
+                              <img src="images/p2.png" alt="" class="img-responsive">
+                              <p>Diagram of Passive Rehabilitation Training</p>
+                    </div>
+					In the later stage of rehabilitation, patients possess a certain level of muscle strength. By real-time detection of patients' motion intentions during movement and converting them into the system's control targets, the quality of human-computer interaction is improved, enhancing patients' participation and the quality of training. In the active training control method, patients' grasping motion intentions are recognized and motion positions are preset, enabling patients to exercise autonomous control. Simultaneously, the RMS (Root Mean Square) and frequency indicators of forearm muscles are calculated and displayed based on the EMG (Electromyography) window data collected by the MYO armband. This provides visual feedback to patients, allowing them to judge whether they need to rest or continue with their rehabilitation training. The following diagram illustrates the active training of the rehabilitation robot.
+					</br>
+					<div class="about-bottom wow slideInRight" data-wow-delay="0.3s">
+                              <img src="images/p3.png" alt="" class="img-responsive">
+                              <p>Schematic Diagram of Active Rehabilitation Training</p>
+                    </div>
+					</p>
+				     <a href="index.html" class="hvr-underline-from-left">Read More</a>
 				</div>
-			   <div class="clearfix"> </div>
+				
+				<div class=" fitness-rit wow zoomIn" data-wow-delay="0.3s">
+					<h4>Model</h4>
+					<p>Collect experimental data from 20 hand grasping trials of subjects during both passive and active training experiments.</p>
+					<div class="about-bottom wow slideInRight" data-wow-delay="0.3s">
+                              <img src="images/p4.png" alt="" class="img-responsive">
+                              <p>Prototype of a hand function assistive rehabilitation robot</p>
+                              <img src="images/p5.png" alt="" class="img-responsive">
+                              <p>Change in bending angle of the proximal interphalangeal (PIP) joint of the index finger in subjects during active training mode</p>
+                    </div>
+                    <p>The formulas for calculating the angle tracking error and the mean square error (MSE) of the angle tracking error for the proximal interphalangeal (PIP) joint of the index finger are as follows:</p>
+                    <div style="display: flex; justify-content: center; align-items: center;">
+                        <img src="images/p6.png" class="img-responsive" alt="" style="max-width: 50%; height: auto;">
+                    </div>
+                    <p>Upon final calculation, the average angle tracking error for the PIP joint of the index finger is err = 8.249°, and the root mean square (RMS) of the angle tracking error is 6.21. The jitter during the control process may be caused by drift in the tracking of hand joint angles by LeapMotion when wearing the exoskeleton. The jitter in the measurement data from LeapMotion will increase the control error during the rehabilitation process. However, model training addresses this issue.
+					</p>
+				     <a href="index.html" class="hvr-underline-from-left">Read More</a>
+				</div>
+
+				<div class=" fitness-rit wow zoomIn" data-wow-delay="0.3s">
+					<h4>Conclusion</h4>
+					<p>The results indicate that passive training has achieved its objectives well. When the active training mode is selected, the rehabilitation exoskeleton can effectively recognize the patient's real-time hand motion intentions and adjust the expected joint angle trajectory of the hand exoskeleton in real-time. This enhances the patient's engagement during the rehabilitation process and improves the human-robot interaction of the rehabilitation robot, which also addresses safety concerns.</p>
+				     <a href="index.html" class="hvr-underline-from-left">Read More</a>
+				</div>
+			
+				<div class="clearfix"> </div>
 			</div>
 		</div>
 	</div>
 </div>
+
 <!--about grid end here-->
 <!--team start here-->
-<div class="team">
-	<div class="container">
-		<div class="team-main wow zoomIn" data-wow-delay="0.3s">
-			<h4>Our Team</h4>
-			  <ul class="ch-grid">
-					<li>
-						<div class="ch-item ch-img-1">				
-							<div class="ch-info-wrap">
-								<div class="ch-info">
-									<div class="ch-info-front ch-img-1"></div>
-									<div class="ch-info-back">
-										<h3>Jayden</h3>									
-									</div>	
-								</div>
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="ch-item ch-img-2">
-							<div class="ch-info-wrap">
-								<div class="ch-info">
-									<div class="ch-info-front ch-img-2"></div>
-									<div class="ch-info-back">
-										<h3>Owen</h3>										
-									</div>
-								</div>
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="ch-item ch-img-3">
-							<div class="ch-info-wrap">
-								<div class="ch-info">
-									<div class="ch-info-front ch-img-3"></div>
-									<div class="ch-info-back">
-										<h3>jiamu sun</h3>										
-									</div>
-								</div>
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="ch-item ch-img-4">
-							<div class="ch-info-wrap">
-								<div class="ch-info">
-									<div class="ch-info-front ch-img-4"></div>
-									<div class="ch-info-back">
-										<h3>Alex</h3>										
-									</div>
-								</div>
-							</div>
-						</div>
-					</li>
-				</ul>
-		 </div>
-	</div>
-</div>
+
 <!--team end here-->
 <!--about end here-->
 <!--footer start here-->
